@@ -2,6 +2,8 @@
 using namespace std;
 int main(){
 
+	// Link to the video https://youtu.be/ur53-o36aYI
+	
 	// Must known bit manipulation concepts
 
 	// Bitwise operators: Works on bit level 
