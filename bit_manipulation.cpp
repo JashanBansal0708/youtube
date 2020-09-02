@@ -1,4 +1,3 @@
-```
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -16,11 +15,11 @@ int main(){
 
 	// 6 bitwise operators in c++
 	Precedence    Operator    Associativity
-    1 			  ~		      Right to left
-    2			  <<, >>      Left to Right
-	3			  & 		  Left to Right
-	4			  ^	 		  Left to Right
-	5			  |           Left to Right
+            1 	         ~         Right to left
+            2  	       <<, >>      Left to Right
+	    3	          & 	   Left to Right
+	    4		  ^	   Left to Right
+	    5		  |        Left to Right
 
 	// Bitwise And operator (&) (Both should be 1)
 	1 & 1 = 1
@@ -42,17 +41,17 @@ int main(){
 	
 	// Properties of XOR operator (Very Important) 
 	1. A ^ A = 0
-    eg:	5 = 101
+    	eg: 5 = 101
 	    5 = 101
-		--------
-			000
+	    --------
+                000
 	    --------
 	
 	2. A ^ 0 = A
-	eg:	5 = 101  //(For simplicity considering only last 3 bits)
+	eg: 5 = 101  //(For simplicity considering only last 3 bits)
 	    0 = 000
-		--------
-			101
+	    --------
+		101
 	    --------
 
 	3. A ^ B = B ^ A     // Commutative
@@ -65,7 +64,7 @@ int main(){
 	   ~5: 11111111111111111111111111111010
 
 	Left most bit is the sign bit: 1 for negative numbers
-								   0 for positive numbers   
+				       0 for positive numbers   
 
 	Internally -ve numbers store in 2s complement form
 	U can google it, if u want to explore more about it
@@ -92,10 +91,10 @@ int main(){
 
 	eg: To set 3rd bit in 10
 	     	10: 00001010
-      1<<(k-1): 00000100
-                ---------
-			| :	00001110
-				---------
+          1<<(k-1): 00000100
+                    ---------
+         	| : 00001110
+		    ---------
 
 	// UnSet kth bit
 	1. First left shift 1 by (k-1) times
@@ -107,11 +106,11 @@ int main(){
 
 	eg: To UnSet 2nd bit in 10
 	       	 10: 00001010
-       1<<(2-1): 00000010
-    ~(1<<(2-1)): 11111101
-                ---------
-			 & : 00001000
-				---------
+           1<<(2-1): 00000010
+        ~(1<<(2-1)): 11111101
+                     ---------
+	         & : 00001000
+		     ---------
 	
 	// Toggle kth bit
 	1. First shift 1 by (k-1) times
@@ -121,10 +120,10 @@ int main(){
 
 	eg: To toggle 3rd bit in 10
 	     	10: 00001010
-      1<<(k-1): 00000100
-                ---------
-			^ :	00001100
-				---------
+      	  1<<(k-1): 00000100
+                    ---------
+	   	^ : 00001100
+		    ---------
 
 	// Check if kth bit is set
 	
@@ -135,10 +134,10 @@ int main(){
 
 	eg: Check if 4th bit is set in 10
 	        10: 00001010
-      1<<(k-1): 00001000
-                ---------
-			& :	00001000 which is true
-				---------
+          1<<(k-1): 00001000
+                    --------
+	        & : 00001000 which is true
+		    --------
 
 	// Check if a given no. is odd
 
@@ -148,10 +147,10 @@ int main(){
 		cout << "Even"
 
 	eg: 5: 00000101
-		1: 00000001
-		    ---------
-		&:  00000001 
-			---------
+	    1: 00000001
+	       ---------
+	    &: 00000001 
+	       ---------
 
 	// Check if a given no. is even directly
 
@@ -159,12 +158,12 @@ int main(){
 		cout << "Even";
 
 	eg: 10: 00001010
-		 1: 00000001
-		 &: 00000000 
-		 1: 00000001
-		   ---------
-		 ^: 00000001
-		   ---------
+	     1: 00000001
+	     &: 00000000 
+	     1: 00000001
+	        ---------
+	     ^: 00000001
+	        ---------
 
 	// check if a num is power of two   	
 
@@ -212,4 +211,3 @@ int main(){
 	4. Search more on GFG, leetcode and codechef for practice
 	
 }
-```
