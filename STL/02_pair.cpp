@@ -1,3 +1,4 @@
+// Link to the video: https://youtu.be/O-aayaZXDBQ
 #include<bits/stdc++.h>
 #include<utility> // pair defined in utility header
 using namespace std;
@@ -20,11 +21,11 @@ int main(){
 	--------------------------
 	|Type    | Default values|
 	-------------------------
-	| int	   |        0	 		 |
-	| float	 |       0.0		 |
-	| bool	 |      false		 |
-	| char	 |      '\0'	 	 |
-	| string |	     ""		 	 |
+	| int	 |       0	 |
+	| float	 |      0.0      |
+	| bool	 |      false    |
+	| char	 |      '\0'	 |
+	| string |	 ""      |
 	--------------------------
 
 	cout << p1.first << " " << p1.second; // 0 0
