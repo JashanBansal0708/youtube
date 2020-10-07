@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 // Link to the Part 1 video: https://youtu.be/Ce1I79JV9LQ
+// Link to the Part 2 vidoe: https://youtu.be/jpMAVR_T0NQ
 int main(){
 	// syntax: vector<type> vec;	 				// dynamic size arrays
 	//--------------------------------------
